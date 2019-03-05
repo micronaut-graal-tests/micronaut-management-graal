@@ -3,3 +3,8 @@ micronaut:
         name: management
 jackson:
     module-scan: false
+    bean-introspection-module: true
+
+endpoints:
+    all:
+        sensitive: false
