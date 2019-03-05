@@ -1,0 +1,5 @@
+micronaut:
+    application:
+        name: management
+jackson:
+    module-scan: false
