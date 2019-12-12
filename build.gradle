@@ -36,7 +36,7 @@ dependencies {
     implementation "io.micronaut:micronaut-management"
     implementation "io.micronaut.configuration:micronaut-micrometer-core"
 
-    compileOnly "com.oracle.substratevm:svm"
+    compileOnly "org.graalvm.nativeimage:svm"
 
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
 
