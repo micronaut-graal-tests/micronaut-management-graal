@@ -11,5 +11,5 @@ out/
 .project
 .settings
 .classpath
-management-graal
+management-graal*
 
