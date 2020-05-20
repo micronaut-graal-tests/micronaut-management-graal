@@ -12,6 +12,7 @@ group "example.micronaut"
 repositories {
     mavenLocal()
     mavenCentral()
+    maven { url  "https://dl.bintray.com/micronaut/core-releases-local" }
     maven { url "https://jcenter.bintray.com" }
     maven { url "https://oss.jfrog.org/oss-snapshot-local" }
 }
