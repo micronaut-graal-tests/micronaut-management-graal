@@ -1,9 +1,7 @@
 micronaut:
-    application:
-        name: management
-jackson:
-    bean-introspection-module: true
+  application:
+    name: management
 
 endpoints:
-    all:
-        sensitive: false
+  all:
+    sensitive: false
