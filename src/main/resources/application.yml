@@ -1,9 +1,0 @@
-micronaut:
-  application:
-    name: management
-
-endpoints:
-  all:
-    sensitive: false
-  loggers:
-    enabled: true
