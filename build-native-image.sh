@@ -1,4 +1,2 @@
-#!/bin/bash
-
-./gradlew nativeImage
-cp build/native-image/management .
+./gradlew assemble
+native-image --no-fallback --class-path build/libs/management-*-all.jar
